@@ -1,0 +1,42 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "This is a separate JavaScript client for hospital management system application.",
+  "main": "index.js",
+  "devDependencies": {
+    "bootstrap": "^5.3.6",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "sass": "1.78.0",
+    "sass-loader": "^16.0.5",
+    "webpack": "^5.99.8",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve",
+    "format": "dprint check",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/kdg-ti/programming-5/projects-24-25/acs202/rufina.chyhohidze/Client.git"
+  },
+  "author": "Rufina Chyhohidze",
+  "type": "module",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/kdg-ti/programming-5/projects-24-25/acs202/rufina.chyhohidze/Client/issues"
+  },
+  "homepage": "https://gitlab.com/kdg-ti/programming-5/projects-24-25/acs202/rufina.chyhohidze/Client#readme",
+  "dependencies": {
+    "@eslint/css": "^0.8.1",
+    "@eslint/js": "^9.27.0",
+    "@eslint/json": "^0.12.0",
+    "@eslint/markdown": "^6.4.0",
+    "eslint": "^9.27.0",
+    "globals": "^16.2.0"
+  }
+}

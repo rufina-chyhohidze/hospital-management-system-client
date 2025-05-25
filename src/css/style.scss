@@ -1,0 +1,13 @@
+@use "variables" as *;
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    background-color: #f0f8ff;
+
+    form {
+        input, select {
+            font-family: $formFont;
+            background-color: $inputBackgroundColor;
+        }
+    }
+}
